@@ -1,0 +1,29 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>A Django Blog Application!</title>
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+          crossorigin="anonymous">
+</head>
+<body>
+<main class="container">
+    <div class="row text-center justify-content-center">
+        <header class="container mt-4 mb-4">
+            <h1>Kuyesa zida, 1,2, kuyesa zida </h1>
+            <a href="https://codesnnippets.com">
+                <img src="{% static "blog/questions.png" %}" alt="blog" class="mw-100">
+            </a>
+        </header>
+    </div>
+</main>
+</body>
+</html>
